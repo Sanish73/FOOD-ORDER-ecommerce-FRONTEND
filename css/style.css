@@ -1,0 +1,61 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    border: 1px solid red;
+    width: 80%;
+    margin: 0 auto;
+    padding: 1%;
+}
+
+
+
+.img-responsive{
+    width: 100%;
+}
+
+.text-right{
+    text-align: right;
+}
+
+.clearfix{
+    clear: both;
+    float: none;
+}
+
+a{
+    color: #fba1af;
+    text-decoration: none;
+    font-weight: bold;
+}
+a:hover{
+    color: #ff4757 ;
+    font-weight: bold;
+}
+
+/* ------------------css for navbar-------------------  */
+
+.logo{
+    border: 1px solid black;
+    /* background-color: green; */
+    width: 10%;
+    float: left;
+}
+
+.menu {
+    line-height: 40px;
+}
+
+.menu ul{
+    list-style-type:  none;
+}
+
+.menu ul li{
+    display: inline;
+    padding: 1%;
+
+}
