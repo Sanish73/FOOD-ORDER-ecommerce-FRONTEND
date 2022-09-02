@@ -238,7 +238,24 @@ h3 {
     }
 
     .food-menu{
-        
+        padding: 8% 0;
+    }
+
+    .food-menu-box{
+        width: 95%;
+        margin-bottom: 3% ;
+        padding: 5%;
+    }
+
+    .social{
+        padding: 3% 0;
+    }
+
+    @media only screen and (max-width:768px){
+        h1{
+            /* background-color: red ; */
+            font-size: 25px;
+        }
     }
 
 }
