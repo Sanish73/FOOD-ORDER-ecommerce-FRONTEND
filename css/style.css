@@ -57,7 +57,20 @@ a:hover {
 
 .btn-primary:hover{
     background-color: #ff4757;
+}
 
+h1{
+    color: #2f3542;
+    font-size: 2rem;
+}
+
+.float-container{
+    position: relative;
+}
+
+.float-text{
+    position: absolute;
+    
 }
 
 /* ------------------css for navbar-------------------  */
@@ -99,4 +112,19 @@ a:hover {
     padding: 1%;
     font-size: 1rem;
     border-radius: 5px;
+}
+
+
+/* ----------css for categories ------  */
+.categories{
+    padding: 4% 0 ;
+
+
+}
+
+.box-3{
+    border: 1px solid red;
+    width: 28%;
+    float: left;
+    margin: 2.5%;
 }
