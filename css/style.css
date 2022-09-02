@@ -1,11 +1,10 @@
-
-
-*{
+* {
     margin: 0;
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
 }
-.container{
+
+.container {
     border: 1px solid red;
     width: 80%;
     margin: 0 auto;
@@ -14,32 +13,56 @@
 
 
 
-.img-responsive{
+.img-responsive {
     width: 100%;
 }
 
-.text-right{
+.text-center {
+    text-align: center;
+}
+
+.text-right {
     text-align: right;
 }
 
-.clearfix{
+.clearfix {
     clear: both;
     float: none;
 }
 
-a{
+a {
     color: #fba1af;
     text-decoration: none;
     font-weight: bold;
 }
-a:hover{
-    color: #ff4757 ;
+
+a:hover {
+    color: #ff4757;
     font-weight: bold;
+}
+
+
+.btn {
+    padding: 1%;
+    border: none;
+    font-size: 1rem;
+    border-radius: 5px;
+}
+
+.btn-primary{
+    background-color: #fba1af;
+    color: white;
+    cursor: pointer;
+}
+
+.btn-primary:hover{
+    background-color: #ff4757;
+
 }
 
 /* ------------------css for navbar-------------------  */
 
-.logo{
+.logo {
     border: 1px solid black;
     /* background-color: green; */
     width: 10%;
@@ -47,18 +70,33 @@ a:hover{
 }
 
 .menu {
-    
+
     line-height: 40px;
 }
 
-.menu ul{
-    list-style-type:  none;
+.menu ul {
+    list-style-type: none;
 }
 
-.menu ul li{
+.menu ul li {
     display: inline;
     padding: 1%;
 
 }
 
 /* ------------end of navbar ----------------  */
+.food-search {
+    background-image: url(../images/bg.jpg);
+    padding: 7% 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.food-search input[type='search'] {
+    border: none;
+    width: 50%;
+    padding: 1%;
+    font-size: 1rem;
+    border-radius: 5px;
+}
