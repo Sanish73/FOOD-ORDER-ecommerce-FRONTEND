@@ -17,11 +17,11 @@
     width: 100%;
 }
 
-.img-curve{
+.img-curve {
     border-radius: 15px;
 }
 
-.text-white{
+.text-white {
     color: white;
 }
 
@@ -57,30 +57,31 @@ a:hover {
     border-radius: 5px;
 }
 
-.btn-primary{
+.btn-primary {
     background-color: #fba1af;
     color: white;
     cursor: pointer;
 }
 
-.btn-primary:hover{
+.btn-primary:hover {
+    color: white;
     background-color: #ff4757;
 }
 
-h1{
+h1 {
     color: #2f3542;
     font-size: 2rem;
 }
 
-h3{
+h3 {
     font-size: 1.5rem;
 }
 
-.float-container{
+.float-container {
     position: relative;
 }
 
-.float-text{
+.float-text {
     position: absolute;
     bottom: 50px;
     left: 40%;
@@ -129,15 +130,61 @@ h3{
 
 
 /* ----------css for categories ------  */
-.categories{
-    padding: 4% 0 ;
+.categories {
+    padding: 4% 0;
 
 
 }
 
-.box-3{
+.box-3 {
     border: 1px solid red;
     width: 28%;
     float: left;
     margin: 2.5%;
+}
+
+
+/* -------------------css for food menu --------------------  */
+
+.food-menu {
+    background-color: #ececec;
+    padding: 4% 0;
+}
+
+.food-menu-box {
+    border: 1px solid red;
+    margin: 1% 1.2%;
+    float: left;
+    width: 43%;
+    padding: 2%;
+    background-color: white;
+    border-radius: 15px;
+}
+
+.food-menu-img {
+    width: 20%;
+    float: left;
+}
+
+.food-menu-desc {
+    width: 70%;
+    float: left;
+    margin-left: 8%;
+}
+
+.food-price {
+    font-size: 1.2rem;
+    margin: 2% 0;
+}
+
+.food-detail {
+    font-size: 1rem;
+    color: #747d8c;
+}
+
+/* ----------css for social----------------  */
+.social ul li {
+    list-style-type: none;
+display: inline;
+padding: 1%;
 }
