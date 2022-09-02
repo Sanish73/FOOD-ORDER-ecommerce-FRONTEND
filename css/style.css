@@ -47,6 +47,7 @@ a:hover{
 }
 
 .menu {
+    
     line-height: 40px;
 }
 
@@ -59,3 +60,5 @@ a:hover{
     padding: 1%;
 
 }
+
+/* ------------end of navbar ----------------  */
