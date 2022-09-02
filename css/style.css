@@ -17,6 +17,14 @@
     width: 100%;
 }
 
+.img-curve{
+    border-radius: 15px;
+}
+
+.text-white{
+    color: white;
+}
+
 .text-center {
     text-align: center;
 }
@@ -64,13 +72,18 @@ h1{
     font-size: 2rem;
 }
 
+h3{
+    font-size: 1.5rem;
+}
+
 .float-container{
     position: relative;
 }
 
 .float-text{
     position: absolute;
-    
+    bottom: 50px;
+    left: 40%;
 }
 
 /* ------------------css for navbar-------------------  */
