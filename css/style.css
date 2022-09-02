@@ -188,3 +188,31 @@ h3 {
 display: inline;
 padding: 1%;
 }
+
+/* ---------------css for mobile size or smaller size ----------------  */
+@media only screen and (max-width:768px){
+    /* this is maximum width of tablet  */
+    .logo{
+        width: 80%;
+        float: none;
+        margin: 1% auto;
+
+    }
+
+    .menu ul{
+        /* background-color: red; */
+        text-align: center;
+    }
+
+    .food-search input[type='search'] {
+width: 90%;
+margin-bottom: 5%;
+padding: 2%;
+    }
+
+    .btn{
+        width: 90%;
+        padding: 2%;
+    }
+    
+}
